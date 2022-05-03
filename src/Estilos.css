@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500&family=Quicksand:wght@300;500;700&display=swap');
+
+
+*{
+    box-sizing: border-box;
+
+}
+body{
+    background-image:url(https://img.freepik.com/vector-gratis/marco-juego-videojuegos-ilustracion-vector-jugador_104589-200.jpg);
+    background-color: transparent;
+    min-width: 100%;
+    min-height: 100%;
+    margin: 100px; 
+    padding: 48px;
+    background-position: 0%;
+    
+    background-size: cover;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Quicksand', sans-serif;
+}
+main{
+    border: 1px solid #E1E1E1;
+    border-radius: 5px;
+    padding: 17px;
+    width: 300px;
+    position:absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
